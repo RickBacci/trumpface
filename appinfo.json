@@ -1,0 +1,33 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Ricky Bacci",
+    "enableMultiJS": true,
+    "longName": "TinyTrump Analog Watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/trump_icon.png",
+                "menuIcon": true,
+                "name": "TINY_TRUMP",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "TinyTrump",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "0307b7f8-5832-4183-a775-195fb79cfaf7",
+    "versionLabel": "1.75",
+    "watchapp": {
+        "watchface": true
+    }
+}
