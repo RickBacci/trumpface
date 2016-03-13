@@ -78,9 +78,9 @@ static void window_load(Window *window) {
   Layer *window_layer = window_get_root_layer(window);
   GRect bounds        = layer_get_bounds(window_layer);
 
-  /* s_simple_bg_layer = layer_create(bounds); */
-  /* layer_set_update_proc(s_simple_bg_layer, bg_update_proc); */
-  /* layer_add_child(window_layer, s_simple_bg_layer); */
+  s_simple_bg_layer = layer_create(bounds);
+  layer_set_update_proc(s_simple_bg_layer, bg_update_proc);
+  layer_add_child(window_layer, s_simple_bg_layer);
 
   s_hands_layer       = layer_create(bounds);
   layer_set_update_proc(s_hands_layer, hands_update_proc);
