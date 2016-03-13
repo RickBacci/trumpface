@@ -2,12 +2,12 @@
 
 #include "pebble.h"
 
-static Window  *s_window;
-static Layer   *s_hands_layer, *s_simple_bg_layer;
+static Window    *s_window;
+static Layer     *s_hands_layer, *s_simple_bg_layer;
+static TextLayer *s_trump_layer;
 
-static GPath   *s_tick_paths[NUM_CLOCK_TICKS];
-static GPath   *s_minute_arrow, *s_hour_arrow;
-
+static GPath     *s_tick_paths[NUM_CLOCK_TICKS];
+static GPath     *s_minute_arrow, *s_hour_arrow;
 
 
 static void bg_update_proc(Layer *layer, GContext *ctx) {
