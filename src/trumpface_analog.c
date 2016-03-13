@@ -84,7 +84,7 @@ static void window_load(Window *window) {
 
   s_hands_layer       = layer_create(bounds);
   layer_set_update_proc(s_hands_layer, hands_update_proc);
- layer_add_child(s_simple_bg_layer, s_hands_layer);
+  layer_add_child(window_layer, s_hands_layer);
 
   TextLayer *s_trump_layer = text_layer_create(bounds);
 
