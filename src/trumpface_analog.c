@@ -24,21 +24,9 @@ static void bg_update_proc(Layer *layer, GContext *ctx) {
 
 static void hands_update_proc(Layer *layer, GContext *ctx) {
   GRect bounds  = layer_get_bounds(layer);
-  //GPoint center = grect_center_point(&bounds);
-
-
 
   time_t now    = time(NULL);
   struct tm *t  = localtime(&now);
-
-
-
-
-
-
-
-
-
 
   // minute/hour hand
   graphics_context_set_fill_color(ctx, GColorWhite);
@@ -56,19 +44,6 @@ static void hands_update_proc(Layer *layer, GContext *ctx) {
   graphics_context_set_fill_color(ctx, GColorBlack);
   graphics_fill_rect(ctx, GRect(bounds.size.w / 2 - 1, bounds.size.h / 2 - 1, 3, 3), 0, GCornerNone);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 static void handle_second_tick(struct tm *tick_time, TimeUnits units_changed) {
   layer_mark_dirty(window_get_root_layer(s_window));
