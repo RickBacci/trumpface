@@ -5,11 +5,11 @@
 
 static const GPathInfo MINUTE_HAND_POINTS = {
   6, (GPoint []) {
-    { 0, -20 },
+    { 0, -25 },
     { -4, 2 },
     { 0, 5 },
     { 4, 2 },
-    { 0, -20 },
+    { 0, -25 },
     { 0, 5 }
   }
 };
