@@ -1,5 +1,5 @@
-#include "simple_analog.h"
-// trumpface
+#include "trumpface_analog.h"
+
 #include "pebble.h"
 
 static Window  *s_window;
