@@ -65,8 +65,8 @@ static void window_load(Window *window) {
 
   s_trump_layer = text_layer_create(
   GRect(0, PBL_IF_ROUND_ELSE(58, 52), bounds.size.w, 50));
-  text_layer_set_background_color(s_trump_layer, GColorWhite);
-  text_layer_set_text_color(s_trump_layer, GColorBlack);
+  text_layer_set_background_color(s_trump_layer, GColorClear);
+  text_layer_set_text_color(s_trump_layer, GColorWhite);
   text_layer_set_text_alignment(s_trump_layer, GTextAlignmentCenter);
   text_layer_set_text(s_trump_layer, "Trump");
 
