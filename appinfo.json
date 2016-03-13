@@ -5,7 +5,7 @@
     ],
     "companyName": "Ricky Bacci",
     "enableMultiJS": true,
-    "longName": "TinyTrump Analog Watchface",
+    "longName": "Trump 'tiny hands' watchface",
     "projectType": "native",
     "resources": {
         "media": [
@@ -25,7 +25,7 @@
         "basalt",
         "chalk"
     ],
-    "uuid": "0307b7f8-5832-4183-a775-195fb79cfaf7",
+    "uuid": "b9fab624-53f7-4e51-85d7-3f52f354dde8",
     "versionLabel": "1.75",
     "watchapp": {
         "watchface": true
